@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>de.intarsys.opensource</groupId>
+  <artifactId>jPod</artifactId>
+  <packaging>jar</packaging>
+  <version>5.6</version>
+
+  <name>jPod</name>
+  <description>Java library for reading, writing and manipulating PDF files.</description>
+  <url>https://wiki.intarsys.de/display/Opensource/jPod</url>
+
+  <organization>
+    <name>Intarsys consulting GmbH</name>
+    <url>http://www.intarsys.de</url>
+  </organization>
+
+  <licenses>
+    <license>
+      <name>BSD 3-Clause</name>
+      <url>http://www.opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>intarsys</id>
+      <name>intarsys support</name>
+      <email>support@intarsys.de</email>
+    </developer>
+  </developers>
+
+  <properties>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+    <project.build.sourceEncoding>Cp1252</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>de.intarsys.opensource</groupId>
+      <artifactId>isrt</artifactId>
+      <version>4.11</version>
+    </dependency>
+    <dependency>
+      <groupId>de.intarsys.opensource</groupId>
+      <artifactId>iscwt</artifactId>
+      <version>5.6</version>
+    </dependency>
+    <dependency>
+      <groupId>de.intarsys.opensource</groupId>
+      <artifactId>jbig2</artifactId>
+      <version>5.5.1</version>
+    </dependency>
+  </dependencies>
+
+  <scm>
+    <connection>not available</connection>
+    <url>https://sourceforge.net/projects/jpodrenderer/files/dependencies/5.6/jPod.5.6.20131203.zip/download</url>
+  </scm>
+</project>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>de.intarsys.opensource</groupId>
+  <artifactId>isnativec</artifactId>
+  <version>5.6</version>
+  <packaging>jar</packaging>
+
+  <name>isnativec</name>
+  <description>Platform independent native code wrapper for Intarsys Java components.</description>
+  <url>https://wiki.intarsys.de/confluence/display/Opensource/isNativeC</url>
+
+  <organization>
+    <name>Intarsys consulting GmbH</name>
+    <url>http://www.intarsys.de</url>
+  </organization>
+
+  <licenses>
+    <license>
+      <name>BSD 3-Clause</name>
+      <url>http://www.opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>intarsys</id>
+      <name>intarsys support</name>
+      <email>support@intarsys.de</email>
+    </developer>
+  </developers>
+
+  <dependencies>
+    <dependency>
+      <groupId>net.java.dev.jna</groupId>
+      <artifactId>jna</artifactId>
+      <version>3.2.7</version>
+    </dependency>
+  </dependencies>
+
+  <scm>
+    <connection>not available</connection>
+    <url>https://sourceforge.net/projects/jpodrenderer/files/dependencies/5.6/isNative.5.6.20131203.zip/download</url>
+  </scm>
+</project>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>de.intarsys.opensource</groupId>
+  <artifactId>isfreetype</artifactId>
+  <packaging>jar</packaging>
+  <version>5.6</version>
+
+  <name>isfreetype</name>
+  <description>Intarsys Java wrapper for the FreeType font management library.</description>
+  <url>https://wiki.intarsys.de/display/Opensource/isFreeType</url>
+
+  <organization>
+    <name>Intarsys consulting GmbH</name>
+    <url>http://www.intarsys.de</url>
+  </organization>
+
+  <licenses>
+    <license>
+      <name>BSD 3-Clause</name>
+      <url>http://www.opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>intarsys</id>
+      <name>intarsys support</name>
+      <email>support@intarsys.de</email>
+    </developer>
+  </developers>
+
+  <dependencies>
+    <dependency>
+      <groupId>de.intarsys.opensource</groupId>
+      <artifactId>isrt</artifactId>
+      <version>4.11</version>
+    </dependency>
+    <dependency>
+      <groupId>de.intarsys.opensource</groupId>
+      <artifactId>isnativec</artifactId>
+      <version>5.6</version>
+    </dependency>
+  </dependencies>
+
+  <scm>
+    <connection>not available</connection>
+    <url>https://sourceforge.net/projects/jpodrenderer/files/dependencies/5.6/isFreetype.5.6.20131203.zip/download</url>
+  </scm>
+</project>
