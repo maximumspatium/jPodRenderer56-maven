@@ -11,12 +11,17 @@
 
   <name>jPod</name>
   <description>Java library for reading, writing and manipulating PDF files.</description>
-  <url>https://wiki.intarsys.de/display/Opensource/jPod</url>
+  <url>https://sourceforge.net/projects/jpodlib/files/jpod/5.6/jPod.5.6.20131203.zip/download</url>
 
   <organization>
-    <name>Intarsys consulting GmbH</name>
+    <name>intarsys GmbH</name>
     <url>http://www.intarsys.de</url>
   </organization>
+  
+  <scm>
+    <connection>not available</connection>
+    <url>https://sourceforge.net/projects/jpodrenderer/files/dependencies/5.6/jPod.5.6.20131203.zip/download</url>
+  </scm>
 
   <licenses>
     <license>
@@ -57,8 +62,4 @@
     </dependency>
   </dependencies>
 
-  <scm>
-    <connection>not available</connection>
-    <url>https://sourceforge.net/projects/jpodrenderer/files/dependencies/5.6/jPod.5.6.20131203.zip/download</url>
-  </scm>
 </project>
