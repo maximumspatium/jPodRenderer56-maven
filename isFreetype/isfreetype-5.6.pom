@@ -11,13 +11,18 @@
 
   <name>isfreetype</name>
   <description>Intarsys Java wrapper for the FreeType font management library.</description>
-  <url>https://wiki.intarsys.de/display/Opensource/isFreeType</url>
+  <url>https://sourceforge.net/projects/jpodrenderer/files/dependencies/5.6/isFreetype.5.6.20131203.zip/download</url>
 
   <organization>
-    <name>Intarsys consulting GmbH</name>
+    <name>intarsys GmbH</name>
     <url>http://www.intarsys.de</url>
   </organization>
-
+  
+  <scm>
+    <connection>not available</connection>
+    <url>https://sourceforge.net/projects/jpodrenderer/files/dependencies/5.6/isFreetype.5.6.20131203.zip/download</url>
+  </scm>
+  
   <licenses>
     <license>
       <name>BSD 3-Clause</name>
@@ -46,8 +51,4 @@
     </dependency>
   </dependencies>
 
-  <scm>
-    <connection>not available</connection>
-    <url>https://sourceforge.net/projects/jpodrenderer/files/dependencies/5.6/isFreetype.5.6.20131203.zip/download</url>
-  </scm>
 </project>

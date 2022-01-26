@@ -11,12 +11,17 @@
 
   <name>isnativec</name>
   <description>Platform independent native code wrapper for Intarsys Java components.</description>
-  <url>https://wiki.intarsys.de/confluence/display/Opensource/isNativeC</url>
+  <url>https://sourceforge.net/projects/jpodrenderer/files/dependencies/5.6/isNative.5.6.20131203.zip/download</url>
 
   <organization>
-    <name>Intarsys consulting GmbH</name>
+    <name>intarsys GmbH</name>
     <url>http://www.intarsys.de</url>
   </organization>
+  
+  <scm>
+    <connection>not available</connection>
+    <url>https://sourceforge.net/projects/jpodrenderer/files/dependencies/5.6/isNative.5.6.20131203.zip/download</url>
+  </scm>
 
   <licenses>
     <license>
@@ -41,8 +46,4 @@
     </dependency>
   </dependencies>
 
-  <scm>
-    <connection>not available</connection>
-    <url>https://sourceforge.net/projects/jpodrenderer/files/dependencies/5.6/isNative.5.6.20131203.zip/download</url>
-  </scm>
 </project>
